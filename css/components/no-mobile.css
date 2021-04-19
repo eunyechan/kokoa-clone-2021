@@ -29,7 +29,7 @@
   animation: noMobileTitle 3s ease-in-out;
 }
 #no-mobile__img {
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 @media screen and (max-width: 645px) {
