@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Kokoa Talk</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:45</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">코코아 클론</h1>
+      <p class="welcome-header__text">
+        이메일이나 핸드폰 번호를 이용하여 로그인 할 수 있습니다.
+      </p>
+    </header>
+
+    <form action="friends.html" method="GET" id="login-form">
+      <input
+        name="uesrname"
+        required
+        type="text"
+        placeholder="이메일 또는 휴대전화번호"
+      />
+      <input name="password" required type="password" placeholder="비밀번호" />
+      <input type="submit" value="로그인" />
+      <a href="#">코코아 이메일 또는 비빌번호 찾기</a>
+    </form>
+
+    <div id="no-mobile">
+      <span style="margin-bottom: 100px"
+        >화면이 너무 커서 줄여야 할거같아요 ㅎㅎ</span
+      >
+      <img
+        src="https://pbs.twimg.com/profile_images/1172163190299324416/Vxc4ENhz_400x400.jpg"
+        alt=""
+      />
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/515636069a.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

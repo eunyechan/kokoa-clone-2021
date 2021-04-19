@@ -1,0 +1,39 @@
+#no-mobile {
+  position: absolute;
+  z-index: 99;
+  height: 160vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  background: linear-gradient(#e66465, #9198e5);
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  color: white;
+  top: -100px;
+}
+
+@keyframes noMobileTitle {
+  from {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+#no-mobile__title {
+  animation: noMobileTitle 3s ease-in-out;
+}
+#no-mobile__img {
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 645px) {
+  #no-mobile {
+    display: none;
+  }
+}
