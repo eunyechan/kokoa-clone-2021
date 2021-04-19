@@ -20,6 +20,35 @@
   color: rgba(0, 0, 0, 0.7);
 }
 
+@keyframes bounsMusic {
+  0% {
+    transform: translate(-5%, -5%) scale(1.25, 0.75);
+  }
+  5% {
+    transform: translate(-5%, -100%) scale(1, 1);
+  }
+  /* 55% {
+    transform: translate(-5%, -150%) rotate(15deg);
+  }
+  60% {
+    transform: translate(-5%, -150%) rotate(-15deg);
+  }
+  65% {
+    transform: translate(-5%, -150%) rotate(15deg);
+  }
+  70% {
+    transform: translate(-5%, -150%) rotate(-15deg); 
+  }*/
+  100% {
+    transform: translate(-5%, -5%) scale(1.25, 0.75);
+  }
+}
+
+.screen-header__icons .fa-music:hover {
+  animation: bounsMusic 1s linear infinite;
+  animation-delay: 0.5s;
+}
+
 @keyframes rotateCog {
   form {
   }
