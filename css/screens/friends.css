@@ -40,26 +40,25 @@
   }
 }
 
-#splash-title {
-  display: block;
-  margin-top: 200px;
-}
-
-#splash-et {
-  display: block;
-  margin-left: 100px;
-}
-
 #splash-screen {
   background-color: var(--yellow);
   position: absolute;
-  height: 135vh;
+  height: 148vh;
   width: 100vw;
   top: 0;
   display: flex;
   flex-direction: column;
-  align-items: center;
   font-size: 132px;
   animation: hideSplashScreen 0.3s ease-in-out forwards;
   animation-delay: 2s;
+}
+#splash-title {
+  display: block;
+  margin-top: 200px;
+  text-align: center;
+}
+
+#splash-et {
+  display: block;
+  text-align: center;
 }
